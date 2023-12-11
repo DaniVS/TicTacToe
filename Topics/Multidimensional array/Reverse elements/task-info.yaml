@@ -1,0 +1,23 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    highlight_level: NONE
+    text: |-
+      class ArrayOperations {
+          public static void reverseElements(int[][] twoDimArray) {
+              // write your code here
+      
+          }
+      }
+    learner_created: false
+  - name: src/ArrayOperationsTest.java
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/12441#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 06 Dec 2023 17:35:53 UTC"
+record: -1
+submission_language: java17

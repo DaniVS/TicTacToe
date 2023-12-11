@@ -1,0 +1,17 @@
+
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ó« øÿÿÿÿ8†ï“ÆÅ1
+L	java:S106#"+Replace this use of System.out by a logger.(’½õìûÿÿÿÿ8ÄêãÅÅ1
+G	java:S106+"+Replace this use of System.out by a logger.(œÙš•8ñØˆÆÅ1
+G	java:S106J"+Replace this use of System.out by a logger.(Á¶Í8ÿß‘ÆÅ1
+c
+java:S1126j"AReplace this if-then-else statement by a single return statement.(Â¬ª•øÿÿÿÿ8ÈêãÅÅ1
+_
+java:S1126€"AReplace this if-then-else statement by a single return statement.(‘âÊä8ÊêãÅÅ1
+d
+java:S1126—"AReplace this if-then-else statement by a single return statement.(ƒ§ıŸúÿÿÿÿ8ÎêãÅÅ1
+d
+java:S1126ğ"AReplace this if-then-else statement by a single return statement.(§Êõ‚ıÿÿÿÿ8ØêãÅÅ1
+_
+java:S1126ø"AReplace this if-then-else statement by a single return statement.(Ïç°Ô8ÙêãÅÅ1
+d
+java:S1126‚"AReplace this if-then-else statement by a single return statement.(Îü‰üÿÿÿÿ8ÛêãÅÅ1

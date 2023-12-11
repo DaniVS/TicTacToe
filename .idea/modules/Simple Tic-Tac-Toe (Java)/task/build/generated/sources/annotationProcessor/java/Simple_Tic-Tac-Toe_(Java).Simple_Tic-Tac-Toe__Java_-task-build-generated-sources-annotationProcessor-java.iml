@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Simple_Tic-Tac-Toe__Java_-task-build-generated-sources-annotationProcessor-java" external.linked.project.path="$MODULE_DIR$/../../../../../../../../../Simple Tic-Tac-Toe (Java)/task/build/generated/sources/annotationProcessor/java" external.root.project.path="$MODULE_DIR$/../../../../../../../../.." external.system.id="GRADLE" external.system.module.group="Simple Tic-Tac-Toe (Java)" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../../../../../Simple Tic-Tac-Toe (Java)/task/build/generated/sources/annotationProcessor/java">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../../../../../Simple Tic-Tac-Toe (Java)/task/build/generated/sources/annotationProcessor/java/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../../../../../Simple Tic-Tac-Toe (Java)/task/build/generated/sources/annotationProcessor/java/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../../../../../Simple Tic-Tac-Toe (Java)/task/build/generated/sources/annotationProcessor/java/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="8fecac19-a7d6-4c13-8383-eec54f8e9c75" />
+  </component>
+</module>

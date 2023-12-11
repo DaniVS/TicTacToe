@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Topics-Comparing_values._Relational_operators-Check_the_given_numbers_are_different:main" external.linked.project.path="$MODULE_DIR$/../../../../../Topics/Comparing values. Relational operators/Check the given numbers are different" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Simple Tic-Tac-Toe (Java)" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../../Topics/Comparing values. Relational operators/Check the given numbers are different/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Topics/Comparing values. Relational operators/Check the given numbers are different/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../Topics/Comparing values. Relational operators/Check the given numbers are different/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="temurin-17" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="493ac086-a2b9-4f9b-a3c0-a5db1ea785a7" />
+  </component>
+</module>
