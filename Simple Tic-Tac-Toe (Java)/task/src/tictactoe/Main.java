@@ -103,11 +103,7 @@ public class Main {
             return true;
         }
 
-        if (tooMuchWinners(gameBoard)){
-            return true;
-        }
-
-        return false;
+        return tooMuchWinners(gameBoard);
     }
 
     private static boolean tooMuchOfTheSameSymbol(char[][] gameBoard) {
@@ -125,11 +121,7 @@ public class Main {
             }
         }
 
-        if (Math.abs(xCount - oCount) > 1){
-            return true;
-        }
-
-        return false;
+        return Math.abs(xCount - oCount) > 1;
     }
 
     private static boolean isEmpty(char[][] gameBoard) {
@@ -148,11 +140,7 @@ public class Main {
             return false;
         }
 
-        if (getSpaceLeft(gameBoard) >= 3 && !thereIsAWinner(gameBoard)){
-            return false;
-        }
-
-        return true;
+        return getSpaceLeft(gameBoard) < 3 || thereIsAWinner(gameBoard);
     }
 
     private static boolean thereIsAWinner(char[][] gameBoard) {
@@ -231,35 +219,23 @@ public class Main {
     private static boolean isAWin(char symbol, char[] combination) {
         int symbolCount = 0;
 
-        for (int i=0; i<combination.length; i++){
-            if (combination[i] == symbol){
+        for (char c : combination) {
+            if (c == symbol) {
                 symbolCount++;
             }
         }
 
-        if (symbolCount == 3){
-            return true;
-        }
-
-        return false;
+        return symbolCount == 3;
     }
 
     public static boolean isDraw(char[][] gameBoard) {
-        if (isFinished(gameBoard) &&
+        return isFinished(gameBoard) &&
                 !thereIsAWinner(gameBoard) &&
-                getSpaceLeft(gameBoard)==0){
-            return true;
-        }
-
-        return false;
+                getSpaceLeft(gameBoard) == 0;
     }
 
     private static boolean tooMuchWinners(char[][] gameBoard) {
-        if (isTheWinner('X', gameBoard) && isTheWinner('O', gameBoard)){
-            return true;
-        }
-
-        return false;
+        return isTheWinner('X', gameBoard) && isTheWinner('O', gameBoard);
     }
 
     private static boolean isInRange(int userMove) {
@@ -281,8 +257,8 @@ public class Main {
         String[] splitMoves = userMove.split(" ");
 
         try {
-            userMoves[0] = Integer.valueOf(splitMoves[0]);
-            userMoves[1] = Integer.valueOf(splitMoves[1]);
+            userMoves[0] = Integer.parseInt(splitMoves[0]);
+            userMoves[1] = Integer.parseInt(splitMoves[1]);
         } catch (NumberFormatException nfe){
             return "You should enter numbers!";
         }
